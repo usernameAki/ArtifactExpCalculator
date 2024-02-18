@@ -11,9 +11,6 @@ namespace ArtifactExpCalculator
         static int notFilledSlots = 0;
         static void Main(string[] args)
         {
-            //1.famimy artefakty wykorzystując 180 resina.
-            //2.Przeprowadzamy ulepszanie wykorzystując 15 oraz 1 slot.
-            //3.Sumujemy otrzymany exp.
             var xpCalc = new XPCalc();
             int iterations = 10000;
             for(int days = 1; days <= 365; days++)
